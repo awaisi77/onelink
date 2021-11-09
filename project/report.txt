@@ -1,0 +1,10 @@
+Total Products
+
+SELECT COUNT(*) FROM `products`
+WHERE status = 1;
+
+
+Total Vendors
+
+SELECT COUNT(*) FROM `users` WHERE
+is_vendor =2
